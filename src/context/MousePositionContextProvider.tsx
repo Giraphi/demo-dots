@@ -7,13 +7,9 @@ export interface MousePositionContextProviderProps {
 
 export default function MousePositionContextProvider(props: MousePositionContextProviderProps) {
     const mousePositionRef = useRef<{ x: number; y: number } | undefined>(undefined);
-    // const device = useContext(DeviceContext).device;
 
     useEffect(() => {
         function onMouseMove(e: MouseEvent) {
-            // if (typeof device === "undefined" || device <= Device.sm) {
-            //     return;
-            // }
             mousePositionRef.current = { x: e.pageX, y: e.pageY };
         }
 

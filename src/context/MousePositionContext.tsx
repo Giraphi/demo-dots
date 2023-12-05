@@ -1,4 +1,4 @@
-import { createContext, RefObject } from "react";
+import React, { createContext, RefObject } from "react";
 
 export interface MousePositionContextType {
     mousePositionRef?: RefObject<{ x: number; y: number } | undefined>;

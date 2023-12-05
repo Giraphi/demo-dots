@@ -4,7 +4,6 @@ import DotsLine from "./DotsLine";
 import { useMotionValue } from "framer-motion";
 
 export interface DotsRowLargeProps {
-    margin: number;
     numDots: number;
     numRows: number;
 }

@@ -4,18 +4,6 @@ import { motion, MotionValue, useSpring } from "framer-motion";
 import { round } from "../util/functions";
 import { getDistanceVector, getVectorLength } from "../util/functions";
 
-// const StyledDot = styled.div<{ isHidden: boolean }>`
-//     width: 4px;
-//     height: 4px;
-//     border-radius: 4px;
-//     background-color: ${(props) => props.theme.color.text}
-//         ${(props) =>
-//             props.isHidden &&
-//             css`
-//                 display: none;
-//             `};
-// `;
-
 export interface AnimatedDotProps {
     isHidden: boolean;
     mousePosition?: MotionValue<MousePosition | undefined>;
@@ -103,7 +91,6 @@ export default function Dot(props: AnimatedDotProps) {
                 }}
             >
                 <div className={`${props.isHidden ? "hidden" : ""} h-[4px] w-[4px] rounded-[4px] bg-black`}></div>
-                {/*<StyledDot isHidden={props.isHidden} />*/}
             </motion.div>
         </div>
     );

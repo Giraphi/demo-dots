@@ -24,8 +24,8 @@ export default function DotsRowLarge(props: DotsRowLargeProps) {
 
             timeoutPending.current = true;
 
-            // For performance tweaking we could set this only ever 10 - 100ms (with timeout
-            // and timeoutPending refs) but it seems to work fine.
+            // To improve performance, we could set this only ever 10 - 100ms (with timeout
+            // and timeoutPending refs) but it seems to work fine in the current setup.
             mousePosition.set({ x: e.pageX, y: e.pageY });
             timeoutPending.current = false;
         },

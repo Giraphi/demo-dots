@@ -15,21 +15,6 @@ export default function DotsRow(props: DotsRowProps) {
     const timeout = useRef<number>();
     const [margin, setMargin] = useState(0);
     const [numDotsHorizontal, setNumDotsHorizontal] = useState(0);
-    // const [numRows, setNumRows] = useState(2);
-
-    // useEffect(() => {
-    //     if (typeof props.numRows === "number") {
-    //         setNumRows(props.numRows);
-    //         return;
-    //     }
-    //
-    //     if (typeof props.numRows === "string") {
-    //         setNumRows(Number(props.numRows));
-    //         return;
-    //     }
-    //
-    //     setNumRows(2);
-    // }, [props.numRows]);
 
     function updateParameters(width: number) {
         let n = 0;

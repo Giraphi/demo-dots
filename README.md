@@ -5,9 +5,9 @@
 
 ## Design Idea
 
-The design for this component was developed during the work on a larger website designed by the Italian design studio <a href="https://vicinedesign.com/">Vicine</a>. The design team requested an animated "Dots"-component that would respond with physically convincing movements to cursor hover.
+The design for this component was developed during the work on a larger website in collaboration with the Italian design studio <a href="https://vicinedesign.com/">Vicine</a>. They requested an animated "Dots"-component that would respond with physically convincing movements when hovered by the cursor.
 
-After some research I designed the technical motion system for the dots and implemented it.
+After some research I designed the motion system for the dots and implemented it.
 
 ## Technical Concept
 

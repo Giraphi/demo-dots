@@ -1,5 +1,5 @@
 import React from "react";
-import DotsRow from "./components/DotsRow.tsx";
+import DotsRow from "./components/DotsRow";
 
 function App() {
     return <DotsRow />;

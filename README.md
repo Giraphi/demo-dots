@@ -11,7 +11,7 @@ After some research I designed the technical motion system for the dots and impl
 
 ## Technical Concept
 
-Listen to current cursor position and update each dot's relative position accordingly. Animate with framer-motion's <a href="https://www.framer.com/motion/use-spring/">`useSpring()`</a>.
+Listen to current cursor position and update each dot's relative position accordingly based on some vector calculations. Animate that update with framer-motion's <a href="https://www.framer.com/motion/use-spring/">`useSpring()`</a>.
 
 ## Implementation
 

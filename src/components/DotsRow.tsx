@@ -2,13 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 import DotsRowLarge from "./DotsRowLarge";
 import MousePositionContextProvider from "../context/MousePositionContextProvider";
 
-export interface DotsRowProps {
-    addHalfTop?: boolean;
-    addHalfBottom?: boolean;
-    align?: "left" | "right";
-}
-
-export default function DotsRow(props: DotsRowProps) {
+export default function DotsRow() {
     const ref = useRef<HTMLDivElement>(null);
     const timeout = useRef<number>();
     const [numDotsHorizontal, setNumDotsHorizontal] = useState(0);

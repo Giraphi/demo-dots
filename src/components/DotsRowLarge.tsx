@@ -12,7 +12,6 @@ export type MousePosition = { x: number; y: number };
 
 export default function DotsRowLarge(props: DotsRowLargeProps) {
     const timeoutPending = useRef(false);
-    // const [ref, inView] = useInView();
     const mousePosition = useMotionValue<MousePosition | undefined>(undefined);
 
     const handleMouseMove = useCallback(

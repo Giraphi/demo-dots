@@ -1,6 +1,5 @@
 import React, { useCallback, useEffect, useRef } from "react";
 import DotsLine from "./DotsLine";
-// import { useInView } from "react-intersection-observer";
 import { useMotionValue } from "framer-motion";
 
 export interface DotsRowLargeProps {
